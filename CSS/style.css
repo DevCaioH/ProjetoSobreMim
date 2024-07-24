@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    background-color: #2d2d2d;
+    font-family: "Dosis", sans-serif;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    align-items: center;
+    min-height: 100%;
+    min-width: 600px;
+    width: 866px;
+    border: 10px solid black;
+    border-radius: 15px;
+    margin: 10px auto 5px auto;
+}
+
+.menu-principal{
+    min-width: 100px;
+    text-align: center;
+    
+}
+
+.menu-principal h1{
+    
+    font-size: 50px;
+    font-family: "Anton";
+    border-radius: 10px;
+    color:  #0083FA;
+    font-weight: bold;
+    width: 850px;
+    
+}
+
+.menu-principal nav{
+    display: inline-block;
+    min-width: 198px;
+    border-bottom: 3px solid  #000000;
+    border-top: 3px solid  #000000;
+    width: 850px;
+    margin-top: 0px;
+}
+
+.menu-principal a {
+    display: inline-block;
+    font-family: "Oswald";
+    font-size: 30px;
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+}
+
+.menu-principal a:hover{
+    transition-delay: 0.1s;
+    color: #4faddb;
+    font-size: 30px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+#sobre{
+    align-self: flex-end;
+    width: 850px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#sobre h2{
+    color: #0083FA;
+    font-family: "Anton";
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 0;
+
+}
+
+#sobre p{
+    margin-bottom: 5px 0px 20px 0;
+}
+
+#servicos{
+    align-self: flex-end; 
+    width: 850px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#servicos h2{
+    color: #0083FA;
+    font-size: 40px;
+    font-family: "Anton";
+    margin-bottom: 0;
+}
+
+#servicos p{
+    margin-bottom: 5px 0px 20px 0;
+}
+
+
+
+#portfolio {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#portfolio h2{
+    text-align: center;
+    color: #0083FA;
+    font-family: "Anton";
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 0;
+
+}
+
+#portfolio hr{
+    width: 100%;
+}
+
+
+footer{
+    display: block;
+    background-color: #FFFFFF;
+    min-height: 100%;
+    min-width: 600px;
+    width: 866px;
+    border: 10px solid black;
+    border-radius: 15px;
+    margin: 0px auto 5px auto;
+}
+
+footer h2{
+    text-align: center;
+    color: #0083FA;
+    font-family: "Anton";
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+
+footer form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+footer form label{
+    color: #0083FA;
+    font-family: "Anton";
+}
+
+footer form label, 
+footer form input, 
+footer form textarea {
+    margin: 10px;
+    flex: 1 1 48%; /* Ajuste para 48% para dois itens por linha */
+}
+
+
+footer form textarea {
+    flex: 1 1 100%; /* Ocupa 100% da largura */
+}
+
+footer form input[type="submit"] {
+    flex: 1 1 100%; /* Ocupa 100% da largura */
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+footer p {
+    text-align: center;
+    color: #0083FA;
+}
+
+footer input[type="submit"]:hover{
+    background-color: rgb(0, 171, 26);
+    border-radius: 10px;
+    color: rgb(60, 255, 0);
+    font-size: bold;
+}
