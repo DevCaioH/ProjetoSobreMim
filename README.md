@@ -31,8 +31,4 @@ Para visualizar o site, basta abrir o arquivo `index.html` em um navegador da we
 
 Este projeto é principalmente para fins de treinamento. No entanto, se você deseja contribuir ou fornecer feedback, sinta-se à vontade para fazer um fork e enviar um pull request com suas melhorias.
 
-## Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
 ---
